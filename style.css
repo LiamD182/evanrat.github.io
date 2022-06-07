@@ -26,13 +26,13 @@
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 75px;
-  color: #C06300;
+  color: #000000;
   display: block;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #fFfFfF;
 }
 
 /* Style page content */
@@ -57,12 +57,12 @@
   cursor: pointer;
   padding: 10px 15px;
   border: none;
-  background-color: #1D2D44;
+  background-color: #C06300;
   color: #eee;
 }
    
 .titlebar {
-  background-color: #3E5C76;
+  background-color: #FF8400;
   overflow: hidden;
   width: 90%;
   margin: 0 auto;
