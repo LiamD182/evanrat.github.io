@@ -57,6 +57,7 @@
   cursor: pointer;
   padding: 10px 15px;
   border: none;
+  width: 30%;
   background-color: #C06300;
   color: #FFFFFF;
 }
@@ -64,7 +65,7 @@
 .titlebar {
   background-color: #FF8400;
   overflow: hidden;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
   text-align:center;
   padding: 0px;
