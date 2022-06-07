@@ -1,19 +1,68 @@
 <html>
-<head>
-    <title>testwebsite</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js">  </script>
+    <head>
+        <title>Kelham Island</title>
     </head>
-    <body>
-    <b> test v1.7 <a href="/UTC.html">Test Website</a> <a href="/utc2.html">The test website</a><a href="/ARgo.html">smile smile smile</a></b> 
-    <a-scene>
-        <a-gltf-model position="0 0 -4" rotation="0 0 0" scale"0.1 0.1 0.1" src="teapot.gltf"></a-gltf-model>
+<link href="style.css" rel="stylesheet">
+
+<style>
+
+
+    
+</style>
+    
+    
+<body>
+<!--Sidebar Code-->
+<div class="sidenav" id="mySidebar" >
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="aframemodel.html">AR</a>
+  <a href="#">Services </a>
+  <a href="#">Clients </a>
+  <a href="#">Contact  </a>
+</div>
+
+    
+    
+    
+    
+<!-- Page content -->
+<div class="main" id="main">
+    <div class="topbar">
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
+    </div>
+    <br>
+    <div class ="titlebar">
+        <h1>Kelham island</h1>
+    </div>
+    <br>
+    <div class="aligncenter">
+    <img src="main.jpg" alt="mainimage" class="homepageimage">
         
-        <a-plane position="0 0 -4" rotation="270 0 0" width="4" height="4" color="#3CFF9E"> </a-plane>
-        <a-sky color="#FF9E20"></a-sky>
-                
-        
-        
-        </a-scene>
-    </body>
+    </div>
+    <p> version 1.2
+</div>
+</body>
+    
+    
+    
+    
     
 </html>
+
+
+
+
+<script>
+    
+//Navigation bar 
+function openNav() {
+  document.getElementById("mySidebar").style.width = "300px";
+  document.getElementById("main").style.marginLeft = "300px";
+}
+
+/* Set the width of the sidebar to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+</script>
