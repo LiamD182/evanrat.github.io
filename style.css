@@ -58,7 +58,7 @@
   padding: 10px 15px;
   border: none;
   background-color: #C06300;
-  color: #c06300;
+  color: #FFFFFF;
 }
    
 .titlebar {
@@ -72,7 +72,7 @@
 }
 
 .titlebar h1{
-    color: #c06300;
+    color: #FFFFFF;
     font-size: 72px;
     
 }
